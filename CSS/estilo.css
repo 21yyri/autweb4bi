@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #fff;
+}
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background: blue;
+    line-height: 90px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: ghostwhite;
+}
+nav ul li a {
+    display: block;
+}
+nav ul li, nav a {
+    list-style: none;
+    text-decoration: none;
+    line-height: 40px;
+}

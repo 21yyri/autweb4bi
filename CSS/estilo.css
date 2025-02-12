@@ -7,7 +7,7 @@
 }
 body {
     display: grid;
-    background: #8A2BE2;
+    background: #c8d4e4;
     grid-template-columns: 20% 1fr 20%;
     grid-template-rows: 1fr 100vh;
 }
@@ -53,11 +53,11 @@ nav a:hover {
     max-height: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 50% 50%;
 }
 .post1 {
     padding: 12px;
-    grid-area: 1 / 2 / 2 / 3;
+grid-area: 1 / 2 / 1 / 4    ;
 }
 .post2 {
     margin: 12px;

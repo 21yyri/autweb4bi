@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: grid;
+    background: #c8d4e4;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 1fr 100vh;
+}
+main {
+    grid-area: 2 / 2 / 2 / 2;
+}
+header {
+    grid-area: 1 / 2 / 1 / 2;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+    color: #f1f4f8;
+    background: #6A0DAD;
+    line-height: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 900;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    font-style: italic;
+    background: white;
+    color: #6A0DAD;
+}
+.corposite {
+    background: #f1f4f8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.badbadnotgood {
+    padding: 16px;
+    grid-area: 1 / 1 / 1 / 3;
+}
+.ivcapa {
+    padding: 16px;
+    grid-area: 1 / 3 / 1 / 4;
+}
+.imgcapas {
+    border: 3px solid #95f252;
+}
+.madvillainy {
+    padding: 16px;
+    padding-left: 4px;
+    grid-area: 2 / 2 / 2 / 4;
+}
+.madvillainycapa {
+    padding: 16px;
+    grid-area: 2 / 1 / 2 / 1;
+}

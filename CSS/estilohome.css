@@ -67,7 +67,7 @@ p {
     background: #f1f4f8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 17% 37% 16% 16%;
+    grid-template-rows: 18% 38% 20% 25%;
 }
 .post1 {
     padding: 20px;

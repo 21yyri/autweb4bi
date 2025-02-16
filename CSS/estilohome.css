@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +5,21 @@
 }
 body {
     display: grid;
-    background: #c8d4e4;
+    background: linear-gradient(45deg,#0000 calc(25%/3), #7611bf 0 calc(50%/3),
+      #0000 0 calc(250%/3), #7611bf 0 calc(275%/3),
+      #0000 0),linear-gradient( 45deg,#7611bf calc(25%/3), #0000 0 calc(50%/3),
+      #7611bf 0 25%, #0000 0 75%,
+      #7611bf 0 calc(250%/3), #0000 0 calc(275%/3),
+      #7611bf 0),
+      linear-gradient(-45deg,#0000 calc(25%/3), #7611bf 0 calc(50%/3),
+      #0000 0 calc(250%/3), #7611bf 0 calc(275%/3),
+      #0000 0),linear-gradient(-45deg,#7611bf calc(25%/3), #0000 0 calc(50%/3),
+      #7611bf 0 25%, #0000 0 75%,
+      #7611bf 0 calc(250%/3), #0000 0 calc(275%/3),
+      #7611bf 0)
+      #6a0dad;
+    background-size: 64px 64px;
+    background-position: 0 0, 32px  32px;
     grid-template-columns: 20% 1fr 20%;
     grid-template-rows: 1fr 100vh;
 }
@@ -48,21 +60,24 @@ nav a:hover {
     background: white;
     color: #6A0DAD;
 }
+p {
+    font-weight: 300;
+}
 .corposite {
     background: #f1f4f8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 17% 37% 16% 16%;
 }
 .post1 {
     padding: 20px;
-    grid-area: 1 / 1 / 1 / 3;
+    grid-area: 1 / 1 / 1 / 4;
 }
 #espaco {
     grid-area: 1 / 3 / 1 / 4;
 }
 .post2 {
-    padding: 12px;
+    padding: 20px;
     grid-area: 2 / 1 / 2 / 3;
 }
 .imgpost2 {
@@ -73,10 +88,11 @@ nav a:hover {
 }
 .post3 {
     padding: 12px;
-    grid-area: 3 / 2 / 3 / 4;
+    grid-area: 3 / 2 / 4 / 4;
 }
 .imgpost3 {
     margin: 12px;
+    margin-top: 17px;
     grid-area: 3 / 1 / 3 / 1;
     border: 3px solid #6A0DAD;
 }

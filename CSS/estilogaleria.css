@@ -57,7 +57,7 @@ nav a:hover {
 .corposite {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 140px 140px 140px 140px 140px 140px 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px 140px 140px 140px 140px 100px;
     background: #f1f4f8;
 }
 img {

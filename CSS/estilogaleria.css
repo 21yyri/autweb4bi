@@ -125,3 +125,21 @@ figure {
     margin-top: 400px;
     grid-area: 8 / 2 / 8 / 2;
 }
+@media (max-width: 720px) {
+    nav {
+        flex-direction: row;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .corposite {
+        display: flex;
+        flex-direction: column;
+    }
+    #imgum, #imgdois, #imgtres, #imgquatro, #imgcinco, #imgseis, #imgsete, #imgoito, #imgnove, #imgdez, #imgonze, #imgdoze, #imgtreze, #imgcatorze, #imgquinze {
+        margin: 10px auto;
+        width: 80%;
+    }
+}

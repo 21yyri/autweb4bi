@@ -79,8 +79,9 @@ p {
 }
 .madvillainy {
     padding: 16px;
-    padding-left: 4px;
+    padding-left: 18px;
     grid-area: 2 / 2 / 2 / 4;
+    padding-bottom: 20px;
 }
 .madvillainycapa {
     padding: 16px;
@@ -90,10 +91,27 @@ p {
     padding: 16px;
     grid-area: 3 / 1 / 3 / 3;
 }
+.thrillercapa {
+    padding: 16px;
+}
 .nightattheopera {
     padding: 16px;
     grid-area: 4 / 2 / 4 / 4;
 }
 .nightoperacapa {
     padding: 16px;
+}
+@media (max-width: 720px) {
+    nav {
+        flex-direction: row;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .corposite {
+        display: flex;
+        flex-direction: column;
+    }
 }

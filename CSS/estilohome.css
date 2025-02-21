@@ -92,15 +92,17 @@ p {
     border: 3px solid #6A0DAD;
 }
 @media (max-width: 720px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
     nav {
         flex-direction: row;
         text-align: center;
     }
-    nav ul {
-        flex-direction: row;
-        gap: 10px;
-    }
     .corposite {
+        grid-area: 1 / 1 / 1 / 1;
         display: flex;
         flex-direction: column;
     }
